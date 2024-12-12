@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site</title>
+<script id="hydro_config" type="text/javascript">
+window.Hydro_tagId = "37986216-8fd0-4c42-9156-03ebd3ae4a7a";
+  </script>
+  <script id="hydro_script" src="https://qa-track.hydro.online/"></script></head>
+  <body>
+    This site created on may 1st .
+
+    <button id="myButton" class="btn btn-primary" onclick="updateClickCount()">
+      Click me!
+    </button>
+
+    <p>Button clicked <span id="clickCount">0</span> times.</p>
+
+    <script>
+      var clickCount = 0;
+
+      function updateClickCount() {
+        clickCount++;
+        document.getElementById("clickCount").innerText = clickCount;
+      }
+    </script>
+  </body>
+</html>
